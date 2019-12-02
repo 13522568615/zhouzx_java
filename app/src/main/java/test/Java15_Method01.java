@@ -1,6 +1,6 @@
 package test;
 /*
-    第92集19分钟
+    第92集
     方法在执行过程当中，在JVM中的内存是如何分配的，内存是如何变化的
 
         1、方法只定义，不调用，是不会执行的，并且也不会给给方法分配“运行所属”的内存空间
@@ -27,11 +27,7 @@ package test;
 
 */
 public class Java15_Method01 {
-    public static void mian(String[] srgs){
-
-    }
-
-    public static void m(){
-
+    public static void main(String[] args){
+        System.out.println("测试训练冲突合并代码");
     }
 }
