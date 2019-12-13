@@ -20,10 +20,7 @@ public class U{
         System.out.println(b);
     }
 
-    public static void pl(float b){
-        System.out.println(b);
-
-    }
+    public static void pl(float b){ System.out.println(b); }
 
     public static void pl(double b){
         System.out.println(b);
