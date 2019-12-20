@@ -29,7 +29,7 @@ import android.view.SubMenu;
         不使用递归，计算1-N的和
 
 */
-public class Java_Recursion {
+public class Java17_Recursion {
     public static void main(String[] sgse){
         int n = 4;
         int retValue = sum(n);

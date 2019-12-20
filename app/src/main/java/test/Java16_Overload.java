@@ -24,7 +24,7 @@ package test;
 
 
 */
-public class Java_Overload {
+public class Java16_Overload {
     public static void main(String[] aegs){
         m1();
         m1(10);
