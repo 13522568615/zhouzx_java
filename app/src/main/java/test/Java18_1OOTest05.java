@@ -1,6 +1,6 @@
 package test;
 /*
-    118-122集结束----练习题
+    118-123集结束----练习题
     需求
         定义一个计算机类
             品牌
@@ -63,10 +63,10 @@ public class Java18_1OOTest05 {
         ChangShang cs = new ChangShang();
         cs.cangSang = "上海";
 
-        //biJiBen赋值给xueSheng.conpute
+        //biJiBen赋值给xueSheng.conpute（引用.）
         xueSheng.conputer = biJiBen;
 
-        //cs赋值给biJiBen.cs
+        //cs赋值给biJiBen.cs（引用.）
         biJiBen.cs = cs;
 
         System.out.println(xueSheng.name + "同学有一台" + xueSheng.conputer.brand
