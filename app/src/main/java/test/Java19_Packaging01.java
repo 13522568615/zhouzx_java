@@ -29,60 +29,33 @@ package test;
         有static关键字修饰符的方法怎么调用：类.方法(实参)；
         没有static关键字修饰符的方法怎么调用：引用.方法(实参);
 * */
+//测试类
+public class Java19_Packaging01 {
+    public static void main(String[] args){
+        UserA user = new UserA();
+        //修改
+        System.out.println(user.getAge());
+
+        user.setAge(160);
+        //读取
+        System.out.println(user.getAge());
+    }
+}
+
 class UserA{
-
     //年龄
-    private int age;
-
-    private int id;
-
+    int age;
     //set方法没有返回值，因为set方法只负责修改数据
-    public void setAge(int a) {
-
-        if (a < 0 || a >= 150){
-            System.out.println("您输入的年龄不合法");
+    public void setAge(int age) {
+        if (age < 0 || age >=150){
+            System.out.println("输入的数值不合法");
             return;
         }
-
-        age = a;
+        this.age = age;
     }
-
-    public int setAge() {
+    public int getAge(){
         return age;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setId(int i) {
-        id = i;
-    }
-
-
-    public int setId() {
-        return id;
     }
 }
 
-/*测试类*/
-public class Java19_Packaging01 {
 
-    public static void main(String[] s){
-
-        UserA user = new UserA();
-        //读取年龄
-        //对于编译报错，age属性私有化，在外部程序中不能直接访问
-        //从此之后age属性非常安全
-        //对于目前的程序来说，age属性彻底在外部无法访问
-        //System.out.println(user.age);
-
-        //修改
-        user.setAge(100);
-        user.setId(1);
-
-        //读取
-        System.out.println(user.setAge());
-        System.out.println(user.setId());
-    }
-}
