@@ -40,11 +40,11 @@ package test;
            jva语言中任何一个类中都有Object类的特征
 
 * */
-public class Java23_extends {
+public class Java23_Extends {
 
     public static void main(String[] args){
 
-        Java23_extends java = new Java23_extends();
+        Java23_Extends java = new Java23_Extends();
 
         String s = java.toString();
         System.out.println(s);
