@@ -1,6 +1,6 @@
 package test;
 /*
-    继承(150完成)
+    继承(149完成)
     extends关键字
 
     关于java语言当中的继承
