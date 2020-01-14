@@ -41,7 +41,7 @@ public class Java24_Override {
         Cat cat = new Cat();
         cat.move();
 
-        //飞禽类
+        //创建飞禽类
         Bird bird = new Bird();
         bird.move();
     }
