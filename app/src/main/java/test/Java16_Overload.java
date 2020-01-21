@@ -25,7 +25,7 @@ package test;
 
 */
 public class Java16_Overload {
-    public static void main(String[] aegs){
+    public static void main(String[] args){
         m1();
         m1(10);
 
@@ -41,7 +41,7 @@ public class Java16_Overload {
     public static void m1(int a){}
 
     //以下两个方法构成方法重载 -顺序不同
-    public static void m2(int a,double b){}
+    public static void  m2(int a,double b){}
     public static void m2(double a,int b){}
 
     //以下两个方法构成方法重载 -类型不同
