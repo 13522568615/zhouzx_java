@@ -15,7 +15,7 @@ public class Java07_if01 {
         //创建键盘扫描器对象
         java.util.Scanner a = new java.util.Scanner(System.in);
         //调用Scanner对象的next()方法开始接受用户键盘输入
-        //当用户输入的时候，并且追中敲回车的时候，键入的信息自动赋值给userInputCintent
+        //当用户输入的时候，并且追中敲回车的时候，键入的信息自动赋值给userInputContent
         //接受文本
 /*
         String userInputContent = a.next();
